@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 3.10)
 set(SRC_LIB_NAME src)
 add_library(${SRC_LIB_NAME})
 target_sources(${SRC_LIB_NAME} PRIVATE GildedRose.cc)

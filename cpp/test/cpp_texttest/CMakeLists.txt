@@ -1,7 +1,7 @@
 set(TEST_NAME GildedRoseTextTests)
 add_executable(${TEST_NAME} GildedRoseTextTests.cc)
 target_sources(${TEST_NAME} PRIVATE GildedRoseTextTests.cc)
-target_link_libraries(${TEST_NAME} lib src)
+target_link_libraries(${TEST_NAME} GildedRose)
 set_property(TARGET ${TEST_NAME} PROPERTY CXX_STANDARD 11)
 add_test(NAME ${TEST_NAME} COMMAND ${TEST_NAME})
 

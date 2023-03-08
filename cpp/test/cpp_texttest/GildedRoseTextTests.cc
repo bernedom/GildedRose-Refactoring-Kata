@@ -1,5 +1,5 @@
 #include <iostream>
-#include "GildedRose.h"
+#include <GildedRose.h>
 
 void print_item(Item& item)
 {
